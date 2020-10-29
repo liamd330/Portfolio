@@ -1,0 +1,141 @@
+/*
+* {
+    border: 1px solid blue;
+}
+*/
+
+
+nav li {
+    display: inline-block;
+    text-decoration-style: none;
+    padding-left: 10px;
+}
+
+nav {
+}
+
+img {
+    max-width: 100%;
+}
+
+strong {
+    display: block;
+}
+
+section {
+    padding: 7.5vh 2vh;
+    text-align: center;
+}
+
+.intro {
+    position: relative;
+}
+
+.intro-img {
+    width: 50%;
+    border: solid black 5px;
+}
+
+.my-services {
+    background-color: #d9d9d9;
+}
+
+.service {
+    display: inline-block;
+    padding: 0px 10px;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+}
+
+.service {
+    margin-top: 2%;
+    width: 25%;
+}
+
+.about-me-body {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.my-work {
+    background-color: #d9d9d9;
+}
+
+.my-work-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portfolio-item-div {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.portfolio-img {
+    border: solid black 5px;
+}
+
+footer {
+    margin-top: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .nav {
+        font-size: 16px;
+    }
+    
+    .intro {
+        margin-top: 7.5%;
+    }
+    
+    .intro-img {
+        width: 80%;
+    }
+    
+    .about-me-body {
+        width: 60%;
+        margin: 0 auto;
+}
+    
+    .portfolio-item-div {
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    .portfolio-img {
+        margin-bottom: 3%;
+    }
+    
+    .service {
+        display: block;
+        margin: 10% auto;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    
+    .about-me-body {
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .portfolio-item-div {
+        width: 40%;
+        margin-top: 5%;
+    }
+    
+    .portfolio-img {
+        margin-bottom: 3%;
+    }
+}
